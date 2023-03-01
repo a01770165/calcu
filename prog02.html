@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<link href="efectos.css" rel="stylesheet" type="text/css">
+    	<title>OPERACIONES</title>
+        <script src="prog02.js" type="text/JavaScript"></script>
+    </head>
+    <body><center>
+        <br>
+        <h1 class="encabezado">Operaciones básicas</h1>
+        <table border="3" width="70%">
+            <form name="datos">
+                <tr align="center">
+                    <td><p>Indica el primer valor</p></td>
+                    <td><input type="number" name="v1" class="campo"></td>
+                </tr>
+                <tr align="center">
+                    <td><p>Indica el segundo valor</p></td>
+                    <td><input type="number" name="v2" class="campo"></td>
+                </tr>
+                 <tr align="center">
+                    <td colspan="2">
+                        <table width="100%">
+                            <tr align="center">
+                                <td><p>El resultado es</p></td>
+                                <td><input type="text" name="opera" class="campo" disabled="true" style="background:gray;"></td>
+                                <td><input type="number" name="res" class="campo" disabled="true" style="background:gray;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                  </tr>
+                  <tr align="center">
+                    <td colspan="2">
+                        <table width="100%">
+                            <tr align="center">
+                                <td><input type="button" name="b_suma" class="boton_azul" value="Suma" onClick="suma()"></td>
+                                <td><input type="button" name="b_resta" class="boton_azul" value="Resta" onClick="resta()"></td>
+                                <td><input type="button" name="b_mult" class="boton_azul" value="Multiplicación" onClick="Multiplicación()"></td>
+                                <td><input type="button" name="b_divi" class="boton_azul" value="División" onClick="División()"></td>
+                                <td><input type="reset" name="b_reset" class="boton_rojo" value="Reset"></td>
+                            </tr>
+                        </table>
+                    </td>
+                  </tr>  
+            </form>
+        </table>
+    </center></body>
+</html>
